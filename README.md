@@ -2,10 +2,29 @@
 # Verbey
 My first student game - 2017
 
-## French student game - IUT Cachan
-<p>This little game is an FPS that can be played 1 vs a bot or 1 VS 1.</p>
-<p>It takes 2 xbox controllers to be played.</p>
-<p>This game has been coded with the C / C ++ language and with the SDL2 graphics library.
-We added images made with Photoshop and sounds.</p>
+## About this repository 
+French student game - IUT Cachan <br>
+This little game is an FPS that can be played 1 vs a bot or 1 VS 1. <br>
+It takes 2 xbox controllers to be played <br>
+This game has been coded with the C / C ++ language and with the SDL 2.0.12 graphics library. <br>
+We added images made with Photoshop and sounds <br>
 
-SDL 2.0.12
+## Prerequisite
+* Install GNU compiler collection
+* Install GDB
+* Install make command
+
+## Installation
+* First clone this project
+```bash
+git clone https://github.com/PierreVerbe/Verbey
+```
+
+* Run scripts to compile c files
+```bash
+# Compile c program
+.\src\run.sh
+```
+
+## Notes
+This repo is in the development phase
