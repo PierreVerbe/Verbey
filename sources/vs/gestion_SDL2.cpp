@@ -12,7 +12,7 @@ MaFenetre* ge_Initialize(MaFenetre* pfenetre)
 	if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_JOYSTICK | SDL_INIT_AUDIO) != 0)
 	{
 		printf(" *SDL* ne peut pas etre initialisee! SDL_Error: %s\n", SDL_GetError());
-		return false;
+		return NULL;
 	}
 
 	// init SDL2_image
@@ -20,13 +20,13 @@ MaFenetre* ge_Initialize(MaFenetre* pfenetre)
 	if (!(IMG_Init(imgFlags) & imgFlags))					// init SDL2_images + test
 	{
 		printf(" *SDL_image* ne peut pas etre init! SDL_image Error: %s\n", IMG_GetError());
-		return false;
+		return NULL;
 	}
 
 	//initialisation SDL mixer
     Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);
 
-	// JOY: autorise les événements pour les joysticks
+	// JOY: autorise les ï¿½vï¿½nements pour les joysticks
 	SDL_JoystickEventState(SDL_ENABLE);
 
 	// creation window
@@ -38,7 +38,7 @@ MaFenetre* ge_Initialize(MaFenetre* pfenetre)
 	if (pfenetre->pwindow == NULL)
 	{
 		printf(" *Fenetre* ne peut pas etre creee! SDL_Error: %s\n", SDL_GetError());
-		return false;
+		return NULL;
 	}
 
 	// changement de l'icone de la fenetre
@@ -58,7 +58,7 @@ MaFenetre* ge_Initialize_renderer(MaFenetre* pfenetre)
 	if (pfenetre->prenderer == NULL)
 	{
 		printf(" *Renderer* ne peut pas etre cree! SDL Error: %s\n", SDL_GetError());
-		return false;
+		return NULL;
 	}
 
 	// appliquer un fond noir sur le renderer
@@ -86,7 +86,7 @@ SDL_Texture* ge_LoadTexture(MaFenetre* pfenetre, std::string file)
 {
 	// decla et init
 	SDL_Texture* newTexture = NULL;
-	SDL_Surface* loadedSurface = IMG_Load(file.c_str());		// type structure -> .c_str() pour referencer à l'image .png
+	SDL_Surface* loadedSurface = IMG_Load(file.c_str());		// type structure -> .c_str() pour referencer ï¿½ l'image .png
 
 	// test
 	if (loadedSurface == NULL)

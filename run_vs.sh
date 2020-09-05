@@ -14,4 +14,4 @@ g++ sources/vs/main.cpp \
     -o verbey
 
 ./verbey.exe
-sleep 10
+sleep 100

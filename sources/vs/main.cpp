@@ -20,7 +20,7 @@
 int main(int argc, char* args[])
 {
 	/* decla et init */
-	MonJoueur J1 = { 0 };				// init les données du joueur1
+	MonJoueur J1 = { 0 };				// init les donnï¿½es du joueur1
 	MonJoueur J2 = { 0 };				// init Joueur2
 	short int victoire = 0;				// pas de joueur GG
 
@@ -39,8 +39,8 @@ int main(int argc, char* args[])
 		{
 			// init
 			ma_initialiserInput(&input, 1, 0, 1, 1);		// init touches manettes (espace memoire)
-			init_joueur(&J1);								// init données Joueur1	/ pos random -> fixe / 3 PV
-			init_joueur(&J2);								// init données J2
+			init_joueur(&J1);								// init donnï¿½es Joueur1	/ pos random -> fixe / 3 PV
+			init_joueur(&J2);								// init donnï¿½es J2
 			af_texture_images(&Textures, &Fenetre);			// def textures (images)
 
 			// boucle -> fct
@@ -51,9 +51,9 @@ int main(int argc, char* args[])
 				ma_gestion_event_manette(&input, &J1, &J2);		// utilisation event manettes
 				ba_test_tir(&J1, &J2);							// verif/test balles
 				gr_test_gre(&J1, &J2);							// verif/test grenades
-				gr_explo_gre(&J1, &J2);							// temps explosion grenade
+				gr_explo_grenade(&J1);							// temps explosion grenade
 				mi_test_explos_mine(&J1, &J2);					// verif/test explo mines
-				mi_explos_mine(&J1, &J2);						// temps afficahge mine
+				mi_explosion_mine(&J1);						// temps afficahge mine
 
 				// aff
 				af_rectangles(&rects, &J1, &J2);					// def rect zone d'affichage

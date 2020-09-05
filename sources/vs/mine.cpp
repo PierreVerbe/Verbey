@@ -1,8 +1,8 @@
 		// code source de l'utilisation de la mine
 
 // prepros
-#include "../en-tetes/vs/calculs.h"
-#include "../en-tetes/vs/mine.h"
+#include "../../en-tetes/vs/calculs.h"
+#include "../../en-tetes/vs/mine.h"
 
 // fonctions
 // init de base de la balle
@@ -30,7 +30,7 @@ void mi_test_explos_mine(MonJoueur* pj1, MonJoueur* pj2)
 		// test mine explo
 		if (N_BE < rayon_explosion)
 		{
-			pj2->pv -= pj1->mine.degat;		// si enemi touché par la mine
+			pj2->pv -= pj1->mine.degat;		// si enemi touchï¿½ par la mine
 			pj1->mine.etat = explos;		// pour affichage
 			pj2->degat++;					// aff degat sur J2
 		}
@@ -45,7 +45,7 @@ void mi_explosion_mine(MonJoueur* pjoueur)
 {
 	if (pjoueur->mine.etat == explos)
 	{
-		pjoueur->mine.temps_explos++;			// durée aff explosion
+		pjoueur->mine.temps_explos++;			// durï¿½e aff explosion
 		if (pjoueur->mine.temps_explos > 100)	// temps aff explos
 		{
 			pjoueur->mine.pos_mine = { 0 };		// re-init pos -> angle sup gauche
