@@ -10,5 +10,3 @@ int main (int argc, char **argv)
 
     return 0;
 }
-
-//gcc src/main.c -o bin/prog -I include/SDL2 -L lib -lmingw32 -lSDL2main -lSDL2
