@@ -9,7 +9,8 @@
 #include "../en-tetes/SDL2/SDL.h"
 #include "../en-tetes/SDL2/SDL_image.h"
 #include "../en-tetes/SDL2/SDL_mixer.h"
-#include "../en-tetes/vs/constantes.h"
+
+#include "constantes.h"
 
 // Types enumerations ___ *********************
 
@@ -43,7 +44,7 @@
 		etat_arme etat;					// pour explosion
 		short int temps_explos;			// temps d'affichage de l'explosion < 50
 		short int nbr_gre;				// nombre max de grenades
-		//bool tir_actif;					// si balle/ grenade/ mine lancée
+		//bool tir_actif;					// si balle/ grenade/ mine lancï¿½e
 	} MaGrenade;
 
 	typedef struct				// type arme balle
@@ -53,7 +54,7 @@
 		etat_arme etat;					// pour explosion
 		short int temps_explos;			// temps d'affichage de l'explosion < 50
 		short int nbr_mine;				// nombre max de mines
-		//bool tir_actif;					// si balle/ grenade/ mine lancée
+		//bool tir_actif;					// si balle/ grenade/ mine lancï¿½e
 	} MaMine;
 
 	typedef struct				// type joueur
@@ -124,7 +125,7 @@
 
 // Manette ___ *********************
 
-/* structure qui gère un joystick */
+/* structure qui gï¿½re un joystick */
 	typedef struct
 	{
 		SDL_Joystick *joystick;
@@ -134,11 +135,11 @@
 		int numero;
 	} InputJoystick;
 
-	/* la structure qui gère les événements */
+	/* la structure qui gï¿½re les ï¿½vï¿½nements */
 	typedef struct
 	{
 		InputJoystick *joystick;	// pointeur car il y a plusieurs joysticks
-		int nombreJoysticks;		// sert à détruire à la fin
+		int nombreJoysticks;		// sert ï¿½ dï¿½truire ï¿½ la fin
 	} Input;
 
 

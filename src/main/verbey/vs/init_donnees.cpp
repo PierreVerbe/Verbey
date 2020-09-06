@@ -1,11 +1,11 @@
-		// fct d'init des données de base du jeu
+		// fct d'init des donnï¿½es de base du jeu
 
 // prepros
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "../../en-tetes/vs/init_donnees.h"
 
+#include "include/verbey/vs/init_donnees.h"
 
 // fonctions
 

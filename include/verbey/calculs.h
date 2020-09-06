@@ -1,10 +1,10 @@
-		// fichier header de calculs du mode PVP
+// fichier header de calculs du mode PVP
 
 #ifndef DEF_BIB_CALCULS
 #define DEF_BIB_CALCULS
 
 // prepros
-#include "../en-tetes/types.h"
+#include "types.h"
 
 // protos
 // calcul la norme du vecteur

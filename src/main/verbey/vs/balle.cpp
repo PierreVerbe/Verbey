@@ -1,8 +1,8 @@
 		// code source balle du mode PVP
 
 // prepros
-#include "../../en-tetes/vs/balle.h"
-#include "../../en-tetes/vs/calculs.h"
+#include "include/verbey/vs/balle.h"
+#include "include/verbey/vs/calculs.h"
 
 // fonctions
 // init de base de la balle
@@ -34,7 +34,7 @@ void ba_test_tir(MonJoueur* pj1, MonJoueur* pj2)
 										// test cible (curseur) atteinte -> ~= 10 pixels
 		if (N_BE < 10)
 		{
-			pj2->pv -= pj1->arme.degat;		// si enemi touché par la balle
+			pj2->pv -= pj1->arme.degat;		// si enemi touchï¿½ par la balle
 			pj1->arme.pos_balle = { 0 };	// re-init pos -> angle sup gauche
 			pj1->arme.etat = vide;			// pour affichage
 			pj2->degat++;					// aff degat sur j2

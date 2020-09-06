@@ -4,7 +4,7 @@
 #define DEF_BIB_CALCULS
 
 // prepros
-#include "../../en-tetes/types.h"
+#include "../types.h"
 //#include "types.h"
 
 // protos

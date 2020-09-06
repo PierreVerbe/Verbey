@@ -1,18 +1,21 @@
 // code source des fonctions de gestion de la SDL2 du menu
 
 // prepros
-#include "../en-tetes/bib_sdl.h"
-#include "../en-tetes/types.h"
-#include "../en-tetes/vs/calculs.h"
-#include "../en-tetes/vs/gestion_SDL2.h"
-#include "../en-tetes/vs/init_donnees.h"
-#include "../en-tetes/vs/manette.h"
-#include "../en-tetes/vs/affichage.h"
-#include "../en-tetes/vs/balle.h"
-#include "../en-tetes/vs/grenade.h"
-#include "../en-tetes/vs/fct_jeu.h"
-#include "../en-tetes/vs/mine.h"
 #include "../en-tetes/SDL2/SDL_mixer.h"
+
+#include "include/verbey/bib_sdl.h"
+#include "include/verbey/calculs.h"
+#include "include/verbey/types.h"
+
+#include "include/verbey/vs/gestion_SDL2.h"
+#include "include/verbey/vs/init_donnees.h"
+#include "include/verbey/vs/manette.h"
+#include "include/verbey/vs/affichage.h"
+#include "include/verbey/vs/balle.h"
+#include "include/verbey/vs/grenade.h"
+#include "include/verbey/vs/fct_jeu.h"
+#include "include/verbey/vs/mine.h"
+
 
 
 // fonctions
@@ -66,7 +69,7 @@ short int mode_PVP(MaFenetre* pfenetre, short int compteur)
 {
 
 	/* decla et init */
-	MonJoueur J1 = { 0 };				// init les données du joueur1
+	MonJoueur J1 = { 0 };				// init les donnï¿½es du joueur1
 	MonJoueur J2 = { 0 };				// init Joueur2
 	short int victoire = 0;				// pas de joueur GG
 
@@ -82,8 +85,8 @@ short int mode_PVP(MaFenetre* pfenetre, short int compteur)
 			// init
 			ma_initialiserInput(&input, 1, 0, 1, 1);		// init touches manettes (espace memoire)
 			init_pos_joueur(&J1, &J2);						// init emplacement depart joueurs
-			init_joueur(&J1);								// init données Joueur1	/ pos random -> fixe / 3 PV
-			init_joueur(&J2);								// init données J2
+			init_joueur(&J1);								// init donnï¿½es Joueur1	/ pos random -> fixe / 3 PV
+			init_joueur(&J2);								// init donnï¿½es J2
 			af_texture_images(&Textures, pfenetre);			// def textures (images)
 
 			// boucle -> fct

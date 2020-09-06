@@ -1,26 +1,26 @@
-		// protos fct init données de base du jeu
+		// protos fct init donnï¿½es de base du jeu
 
 #ifndef DEF_BIB_INIT_DONNEES
 #define DEF_BIB_INIT_DONNEES
 
 // prepros
-#include "../../en-tetes/types.h"
-#include "../../en-tetes/vs/constantes.h"
+#include "../types.h"
+#include "../constantes.h"
 
 // protos
 // init position joueur
 void init_pos_joueur(MonJoueur* pj1, MonJoueur* pj2);			// init pos joueurs;
 
-// init données joueur
+// init donnï¿½es joueur
 void init_joueur(MonJoueur* pjoueur);
 
-// init données balles
+// init donnï¿½es balles
 void init_balle(MonJoueur* pjoueur);
 
-// init données grenades
+// init donnï¿½es grenades
 void init_grenade(MonJoueur* pjoueur);
 
-// init données mines
+// init donnï¿½es mines
 void init_mine(MonJoueur* pjoueur);
 
 

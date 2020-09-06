@@ -6,7 +6,7 @@
 
 // prepros
 #include <string>
-#include "../../en-tetes/types.h"
+#include "../types.h"
 
 
 // protos

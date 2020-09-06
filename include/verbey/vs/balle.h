@@ -4,7 +4,7 @@
 #define DEF_BALLE
 
 // prepros
-#include "../../en-tetes/types.h"
+#include "../types.h"
 
 // protos
 // gestion d'un tir (du joueur)

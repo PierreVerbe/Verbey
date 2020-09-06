@@ -4,8 +4,10 @@
 #define DEF_GRENADE
 
 // prepros
-#include "../../en-tetes/types.h"
 #include "../../en-tetes/SDL2/SDL_mixer.h"
+
+#include "../types.h"
+
 
 
 // protos

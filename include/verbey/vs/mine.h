@@ -4,7 +4,7 @@
 #define DEF_MINE
 
 // prepros
-#include "../../en-tetes/types.h"
+#include "../types.h"
 
 // protos
 // init mine

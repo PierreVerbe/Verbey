@@ -1,9 +1,10 @@
 		// code source gestion grenades mode PVP
 
 // prepros
-#include "../../en-tetes/vs/grenade.h"
-#include "../../en-tetes/vs/calculs.h"
 #include "../../en-tetes/SDL2/SDL_mixer.h"
+
+#include "include/verbey/vs/calculs.h"
+#include "include/verbey/vs/grenade.h"
 
 // focntions
 // init de base de la balle
@@ -16,7 +17,7 @@ void gr_grenade(MonJoueur* pjoueur)
 		pjoueur->grenade.pos_grenade = pjoueur->position;		// init pos grenade sur pos joueur
 		pjoueur->grenade.pos_final_gre = pjoueur->curseur;		// init destination grenade sur pos curseur
 		pjoueur->grenade.temps_explos = 0;						// temps d'afficahge de l'explo
-		pjoueur->grenade.nbr_gre++;								// compte le nombre de grenade lancées
+		pjoueur->grenade.nbr_gre++;								// compte le nombre de grenade lancï¿½es
 	}
 }
 // ---------------------------------------------------------------------------------------------------------
@@ -45,7 +46,7 @@ void gr_test_gre(MonJoueur* pj1, MonJoueur* pj2)
 
 			if (N_GE < rayon_explosion)
 			{
-				pj2->pv -= pj1->grenade.degat;	    // si enemi touché par l'eplosion de la grenade
+				pj2->pv -= pj1->grenade.degat;	    // si enemi touchï¿½ par l'eplosion de la grenade
 				pj2->degat++;					    // aff degat sur J2
 				//Mix_PlayChannel(-1, play_explosion, 0);  // son
 			}

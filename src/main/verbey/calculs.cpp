@@ -2,8 +2,8 @@
 
 // prepros
 #include <math.h>
-#include "../en-tetes/vs/calculs.h"
 
+#include "include/verbey/vs/calculs.h"
 
 // fonctions
 

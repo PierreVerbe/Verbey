@@ -4,7 +4,7 @@
 #define DEF_AFFICHAGE
 
 // prepros
-#include "../../en-tetes/types.h"
+#include "../types.h"
 
 //protos
 // texture images + emplacements

@@ -1,10 +1,10 @@
 		// code source de l'utilisation des manettes du mode PVP
 
 // prepros
-#include "../../en-tetes/vs/manette.h"
-#include "../../en-tetes/vs/balle.h"
-#include "../../en-tetes/vs/grenade.h"
-#include "../../en-tetes/vs/mine.h"
+#include "include/verbey/vs/balle.h"
+#include "include/verbey/vs/grenade.h"
+#include "include/verbey/vs/manette.h"
+#include "include/verbey/vs/mine.h"
 
 // fonctions
 // init des infos des manettes

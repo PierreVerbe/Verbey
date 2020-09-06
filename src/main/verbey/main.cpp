@@ -1,21 +1,27 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include <SDL.h>
+#include <SDL_mixer.h>
 #include "../en-tetes/SDL2/SDL.h"
 #include "../en-tetes/SDL2/SDL_image.h"
 #include "../en-tetes/SDL2/SDL_mixer.h"
-#include "../en-tetes/constante.h"
-#include "../en-tetes/bib_sdl.h"
-#include "../en-tetes/types.h"
-#include "../en-tetes/vs/constantes.h"
-#include "../en-tetes/vs/calculs.h"
-#include "../en-tetes/vs/balle.h"
-#include "../en-tetes/vs/init_donnees.h"
-#include "../en-tetes/vs/mine.h"
-#include "../en-tetes/vs/grenade.h"
-#include "../en-tetes/vs/gestion_SDL2.h"
-#include "../en-tetes/vs/fct_jeu.h"
-#include "../en-tetes/vs/affichage.h"
-#include "../en-tetes/vs/manette.h"
-#include <stdio.h>
-#include <stdbool.h>
+
+#include "include/verbey/bib_sdl.h"
+//#include "include/verbey/calculs.h"
+#include "include/verbey/constante.h"
+//#include "include/verbey/constantes.h"
+#include "include/verbey/types.h"
+
+#include "include/verbey/vs/affichage.h"
+#include "include/verbey/vs/balle.h"
+#include "include/verbey/vs/calculs.h"
+#include "include/verbey/vs/constantes.h"
+#include "include/verbey/vs/fct_jeu.h"
+#include "include/verbey/vs/gestion_SDL2.h"
+#include "include/verbey/vs/grenade.h"
+#include "include/verbey/vs/init_donnees.h"
+#include "include/verbey/vs/manette.h"
+#include "include/verbey/vs/mine.h"
 
 //dimentions ecran
 const int SCREEN_WIDTH = 1920;
@@ -54,7 +60,7 @@ int main( int argc, char* args[] )
         //creation fenetre
              if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO) != 0 )
             {
-                fprintf(stdout,"Échec de l'initialisation de la SDL (%s)\n",SDL_GetError());
+                fprintf(stdout,"ï¿½chec de l'initialisation de la SDL (%s)\n",SDL_GetError());
                 return -1;
             }
 
@@ -79,7 +85,7 @@ int main( int argc, char* args[] )
             Mix_PlayMusic(backgroundSound, -1); // jouer en boucle
 
 
-            // Création de la fenêtre
+            // Crï¿½ation de la fenï¿½tre
             SDL_Window* pWindow = NULL;
             pWindow = SDL_CreateWindow("La super fenetre",SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_FULLSCREEN);
 
@@ -92,7 +98,7 @@ int main( int argc, char* args[] )
             {
 
                 //creation renderer
-                //SDL_Renderer *pRenderer = SDL_CreateRenderer(pWindow,-1,SDL_RENDERER_ACCELERATED); // Création d'un SDL_Renderer utilisant l'accélération matérielle
+                //SDL_Renderer *pRenderer = SDL_CreateRenderer(pWindow,-1,SDL_RENDERER_ACCELERATED); // Crï¿½ation d'un SDL_Renderer utilisant l'accï¿½lï¿½ration matï¿½rielle
 
                 //chargement des images
                 // image 1
@@ -1126,7 +1132,7 @@ int main( int argc, char* args[] )
                 break;
                 }
             }
-                    // liberaton de la memeoire associé à la texture
+                    // liberaton de la memeoire associï¿½ ï¿½ la texture
                     SDL_DestroyTexture(pTexture);
                     SDL_DestroyTexture(pTexture2);
                     SDL_DestroyTexture(pTexture3);
@@ -1147,7 +1153,7 @@ int main( int argc, char* args[] )
 
             //SDL_DestroyWindow(Fenetre.pwindow);
 
-            //libération sons
+            //libï¿½ration sons
             Mix_FreeMusic(backgroundSound);
             Mix_FreeChunk(clic);
             Mix_FreeChunk(decomptage);

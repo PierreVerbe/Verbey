@@ -4,7 +4,7 @@
 #define DEF_FCT_JEU
 
 // prepros
-#include "../../en-tetes/types.h"
+#include "../types.h"
 
 // protos
 // test victoire

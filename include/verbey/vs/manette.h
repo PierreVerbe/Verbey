@@ -4,20 +4,20 @@
 #define DEF_MANETTE
 
 // prepros
-#include "../../en-tetes/types.h"
+#include "../types.h"
 
 // protos
 
 // protos
 
-// initialise en fonction du numéro du joystick
+// initialise en fonction du numï¿½ro du joystick
 //void initialiserInput(Input *input, int numeroJoystick);
 void ma_initialiserInput(Input *input, int utiliserJoystick1, int numeroJoystick1, int utiliserJoystick2, int numeroJoystick2);
 
-// libère la mémoire allouée
+// libï¿½re la mï¿½moire allouï¿½e
 void ma_detruireInput(Input *input);
 
-// récupère les évènements
+// rï¿½cupï¿½re les ï¿½vï¿½nements
 void ma_updateEvent(Input *input);
 
 // gestion event manettes

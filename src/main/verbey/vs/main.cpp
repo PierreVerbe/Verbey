@@ -4,17 +4,17 @@
 		le but est de tuer son adversaire !	*/
 
 // prepros
-#include "../../en-tetes/types.h"
-#include "../../en-tetes/calculs.h"
-#include "../../en-tetes/vs/gestion_SDL2.h"
-#include "../../en-tetes/vs/init_donnees.h"
-#include "../../en-tetes/vs/manette.h"
-#include "../../en-tetes/vs/affichage.h"
-#include "../../en-tetes/vs/balle.h"
-#include "../../en-tetes/vs/grenade.h"
-#include "../../en-tetes/vs/fct_jeu.h"
-#include "../../en-tetes/vs/mine.h"
+#include "include/verbey/calculs.h"
+#include "include/verbey/types.h"
 
+#include "include/verbey/vs/affichage.h"
+#include "include/verbey/vs/balle.h"
+#include "include/verbey/vs/fct_jeu.h"
+#include "include/verbey/vs/gestion_SDL2.h"
+#include "include/verbey/vs/grenade.h"
+#include "include/verbey/vs/init_donnees.h"
+#include "include/verbey/vs/manette.h"
+#include "include/verbey/vs/mine.h"
 
 // corps du prg
 int main(int argc, char* args[])

@@ -1,9 +1,10 @@
 		// code source affichage du mode PVP
 
 // prepros
-#include "../../en-tetes/types.h"
-#include "../../en-tetes/vs/affichage.h"
-#include "../../en-tetes/vs/gestion_SDL2.h"
+#include "include/verbey/types.h"
+
+#include "include/verbey/vs/affichage.h"
+#include "include/verbey/vs/gestion_SDL2.h"
 
 //fonctions
 // texture images
