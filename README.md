@@ -7,6 +7,8 @@ French student game - IUT Cachan <br>
 This little game is an FPS that can be played 1 vs a bot or 1 VS 1. <br>
 It takes 2 xbox controllers to be played <br>
 This game has been coded with the C / C ++ language and with the SDL 2.0.12 graphics library. <br>
+SDL2_image 2.0.5 <br>
+SDL2_mixer 2.0.4 <br>
 We added images made with Photoshop and sounds <br>
 
 ## Prerequisite

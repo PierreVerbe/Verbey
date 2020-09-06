@@ -53,7 +53,7 @@ int main (int argc, char **argv)
         exit(EXIT_FAILURE);
     }
 
-    picture = IMG_Load("src/test/resources/Simple_DirectMedia_Layer,_Logo.png");
+    picture = IMG_Load("src/test/resources/images/Simple_DirectMedia_Layer,_Logo.png");
     if(picture == NULL)
     {
         SDL_Log("Erreur > %s\n", SDL_GetError());

@@ -15,7 +15,9 @@ g++ src/main/verbey/main.cpp \
     -L lib \
     -lmingw32 \
     -lSDL2main \
-    -lSDL2
+    -lSDL2 \
+    -lSDL2_image \
+    -lSDL2_mixer
 
 ./bin/prog.exe
 sleep 5

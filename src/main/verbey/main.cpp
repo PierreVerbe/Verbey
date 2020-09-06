@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <SDL.h>
+# include <SDL_image.h>
 #include <SDL_mixer.h>
-#include "../en-tetes/SDL2/SDL.h"
-#include "../en-tetes/SDL2/SDL_image.h"
+
 #include "../en-tetes/SDL2/SDL_mixer.h"
 
 #include "include/verbey/bib_sdl.h"
