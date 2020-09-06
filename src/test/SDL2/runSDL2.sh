@@ -1,4 +1,4 @@
-gcc src/test/main.c \
+gcc src/test/SDL2/SDL2.c \
     -o bin/prog \
     -I include/SDL2 \
     -L lib \
