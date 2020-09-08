@@ -1,6 +1,6 @@
 gcc src/test/SDL2/SDL2.c \
     -o bin/prog \
-    -I include/SDL2 \
+    -I include \
     -L lib \
     -lmingw32 \
     -lSDL2main \

@@ -4,10 +4,10 @@
 #define DEF_BIB_SDL
 
 // prepros
-#include "../en-tetes/SDL2/SDL_mixer.h"
+#include <SDL2/SDL_mixer.h>
 
 #include "bib_sdl.h"
-#include "types.h"
+#include "verbey/types.h"
 
 //compteur down
 short int compteur_down(short int num, short int maximum);

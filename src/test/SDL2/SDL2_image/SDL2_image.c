@@ -1,7 +1,7 @@
 # include <stdio.h>
 # include <stdlib.h>
-# include <SDL.h>
-# include <SDL_image.h>
+# include <SDL2/SDL.h>
+# include <SDL2/SDL_image.h>
 
 void clean_ressources(SDL_Window *w, SDL_Renderer *r, SDL_Texture *t)
 {

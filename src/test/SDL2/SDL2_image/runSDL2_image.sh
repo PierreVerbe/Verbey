@@ -1,6 +1,6 @@
 gcc src/test/SDL2/SDL2_image/SDL2_image.c \
     -o bin/TestSDL2_image \
-    -I include/SDL2 \
+    -I include \
     -L lib \
     -lmingw32 \
     -lSDL2main \

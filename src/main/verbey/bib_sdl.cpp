@@ -1,22 +1,20 @@
 // code source des fonctions de gestion de la SDL2 du menu
 
 // prepros
-#include "../en-tetes/SDL2/SDL_mixer.h"
+#include <SDL2/SDL_mixer.h>
 
-#include "include/verbey/bib_sdl.h"
-#include "include/verbey/calculs.h"
-#include "include/verbey/types.h"
+#include "verbey/bib_sdl.h"
+#include "verbey/calculs.h"
+#include "verbey/types.h"
 
-#include "include/verbey/vs/gestion_SDL2.h"
-#include "include/verbey/vs/init_donnees.h"
-#include "include/verbey/vs/manette.h"
-#include "include/verbey/vs/affichage.h"
-#include "include/verbey/vs/balle.h"
-#include "include/verbey/vs/grenade.h"
-#include "include/verbey/vs/fct_jeu.h"
-#include "include/verbey/vs/mine.h"
-
-
+#include "verbey/vs/gestion_SDL2.h"
+#include "verbey/vs/init_donnees.h"
+#include "verbey/vs/manette.h"
+#include "verbey/vs/affichage.h"
+#include "verbey/vs/balle.h"
+#include "verbey/vs/grenade.h"
+#include "verbey/vs/fct_jeu.h"
+#include "verbey/vs/mine.h"
 
 // fonctions
 

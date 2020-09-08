@@ -10,8 +10,8 @@ g++ src/main/verbey/main.cpp \
     src/main/verbey/vs/init_donnees.cpp \
     src/main/verbey/vs/manette.cpp \
     src/main/verbey/vs/mine.cpp \
-    -o bin/prog \
-    -I include/SDL2 \
+    -o bin/verbey \
+    -I include \
     -L lib \
     -lmingw32 \
     -lSDL2main \
@@ -19,5 +19,5 @@ g++ src/main/verbey/main.cpp \
     -lSDL2_image \
     -lSDL2_mixer
 
-./bin/prog.exe
+./bin/verbey.exe
 sleep 5

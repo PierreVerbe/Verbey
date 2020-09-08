@@ -1,10 +1,10 @@
 		// code source gestion grenades mode PVP
 
 // prepros
-#include "../../en-tetes/SDL2/SDL_mixer.h"
+#include <SDL2/SDL_mixer.h>
 
-#include "include/verbey/vs/calculs.h"
-#include "include/verbey/vs/grenade.h"
+#include "verbey/vs/calculs.h"
+#include "verbey/vs/grenade.h"
 
 // focntions
 // init de base de la balle

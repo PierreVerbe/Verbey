@@ -1,4 +1,4 @@
-		// biblio types du mode PVP
+// biblio types du mode PVP
 
 #ifndef DEF_TYPES
 #define DEF_TYPES
@@ -6,9 +6,10 @@
 // prepros global
 #include <stdio.h>
 #include <stdlib.h>
-#include "../en-tetes/SDL2/SDL.h"
-#include "../en-tetes/SDL2/SDL_image.h"
-#include "../en-tetes/SDL2/SDL_mixer.h"
+
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <SDL2/SDL_mixer.h>
 
 #include "constantes.h"
 

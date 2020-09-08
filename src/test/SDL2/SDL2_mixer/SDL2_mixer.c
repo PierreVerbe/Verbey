@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <SDL.h>
-#include <SDL_mixer.h>
-
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_mixer.h>
  
 void clean_ressources(SDL_Window *w, SDL_Renderer *r, SDL_Texture *t, Mix_Music *m)
 {

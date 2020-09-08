@@ -1,8 +1,8 @@
 		// code source de l'utilisation de la mine
 
 // prepros
-#include "include/verbey/vs/calculs.h"
-#include "include/verbey/vs/mine.h"
+#include "verbey/vs/calculs.h"
+#include "verbey/vs/mine.h"
 
 // fonctions
 // init de base de la balle
