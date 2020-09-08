@@ -4,8 +4,8 @@
 #define DEF_BIB_INIT_DONNEES
 
 // prepros
-#include "../types.h"
-#include "../constantes.h"
+#include "verbey/types.h"
+#include "verbey/constantes.h"
 
 // protos
 // init position joueur

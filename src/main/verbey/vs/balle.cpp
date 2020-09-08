@@ -1,8 +1,8 @@
 		// code source balle du mode PVP
 
 // prepros
-#include "include/verbey/vs/balle.h"
-#include "include/verbey/vs/calculs.h"
+#include "verbey/vs/balle.h"
+#include "verbey/vs/calculs.h"
 
 // fonctions
 // init de base de la balle

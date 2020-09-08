@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "include/verbey/vs/init_donnees.h"
+#include "verbey/vs/init_donnees.h"
 
 // fonctions
 

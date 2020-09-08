@@ -1,9 +1,9 @@
 		// code source des focntions du jeu du mode PVP
 
 // prepros
-#include "include/verbey/types.h"
+#include "verbey/types.h"
 
-#include "include/verbey/vs/fct_jeu.h"
+#include "verbey/vs/fct_jeu.h"
 
 // fonctions
 // test de victoire

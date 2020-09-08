@@ -4,7 +4,7 @@
 #define DEF_BIB_CALCULS
 
 // prepros
-#include "types.h"
+#include "verbey/types.h"
 
 // protos
 // calcul la norme du vecteur

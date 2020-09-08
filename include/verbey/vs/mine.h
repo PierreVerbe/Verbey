@@ -4,7 +4,7 @@
 #define DEF_MINE
 
 // prepros
-#include "../types.h"
+#include "verbey/types.h"
 
 // protos
 // init mine

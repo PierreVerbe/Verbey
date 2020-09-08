@@ -3,7 +3,7 @@
 // prepros
 #include <math.h>
 
-#include "include/verbey/vs/calculs.h"
+#include "verbey/vs/calculs.h"
 
 // fonctions
 

@@ -4,9 +4,9 @@
 #define DEF_GRENADE
 
 // prepros
-#include "../../en-tetes/SDL2/SDL_mixer.h"
+#include <SDL2/SDL_mixer.h>
 
-#include "../types.h"
+#include "verbey/types.h"
 
 
 

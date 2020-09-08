@@ -1,7 +1,7 @@
 		// code source des fonctions de gestion de la SDL2 du mode PVP
 
 // prepros
-#include "include/verbey/vs/gestion_SDL2.h"
+#include "verbey/vs/gestion_SDL2.h"
 
 // fonctions
 

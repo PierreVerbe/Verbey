@@ -4,7 +4,7 @@
 #define DEF_AFFICHAGE
 
 // prepros
-#include "../types.h"
+#include "verbey/types.h"
 
 //protos
 // texture images + emplacements
