@@ -1,0 +1,11 @@
+#IDE
+.vscode
+
+#object files
+obj/*.o
+
+#debug files
+debug/*.exe
+
+#executable files
+bin/*.exe
